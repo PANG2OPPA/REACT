@@ -3,6 +3,19 @@ import './App.css';
 import Section from './Section';
 import MyComponent from './MyComponent';
 import Say from './Say';
+import Clock from './Clock';
+import EventPractice from './onChange';
+import EventHandler from './EventHandler';
+import FruitSelect from './FruitSelect';
+import RadioButton from './RadioButton';
+import Table from './Table';
+import TableMap from './TableMap';
+import CreateRef from './UseRef';
+import UserList from './UserList';
+import Hooks1 from './Hooks1';
+import Submit from './Submit';
+import NameCard from './Submit';
+import MemberInfo from './Hooks2';
 
 function App() {
   return (
@@ -19,7 +32,19 @@ function App() {
       <MyComponent name="김현빈" age={24}>
         안녕하세여~
       </MyComponent> */}
-      <Say />
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      {/* <TableMap /> */}
+      {/* <CreateRef /> */}
+      {/* <UserList /> */}
+      {/* <TodoList /> */}
+      {/* <Hooks1 /> */}
+      {/* <NameCard /> */}
+      <MemberInfo />
     </>
   );
 }

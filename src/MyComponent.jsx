@@ -5,7 +5,7 @@ const MyComponent = (props) => {
 
   return (
     <div>
-      안녕하세요. 제 이름은 {name}입니다. 나이는 {p.age}살 입니다.
+      안녕하세요. 제 이름은 {name}입니다. 나이는 {age}살 입니다.
       {children}
     </div>
   );
